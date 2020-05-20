@@ -19,8 +19,9 @@ The project is used as a prerequisite for passing by the course, therefore stude
 * Create your own shiny dashboard (Similar to my Dashboard)
 * By adding matana logo in the right corner of your dashboard [Your score is 20%]()
 * Change the color box of the Number Flights, Average Flights per day, <br> and percentage of the Flights delayed) [Your score is 10%]()
-* Create Top 10 Airlines Bar-Chart and possibility to explore the detail [Your score is 30%]()
-* User controller: the Destination Airports selection input (Sidebar of the dasboard) [Your score is 30%]()
+* Create Top 10 Airlines Bar-Chart and possibility to explore the detail [Your score is 10%]()
+* Please Sorting the Top 10 Airlines Bar-Chart from largest to smallest [Your score is 10%]()
+* User controller: the Destination Airports selection input (Sidebar of the dasboard) [Your score is 10%]()
 * User controller: the month selection input (Sidebar of the dasboard) [No Score]()
 * Source Code, About Me, and Youtube (Explanation) [Your score is 40%]()
 
