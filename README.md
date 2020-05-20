@@ -24,7 +24,7 @@ The project is used as a prerequisite for passing by the course, therefore stude
 * User controller: the Destination Airports selection input (Sidebar of the dasboard) [**Your score is 10%**]
 * User controller: the month selection input (Sidebar of the dasboard) [No Score]
 * Source Code, About Me, and Youtube (Your Explanation) [**Your score is 30%**]
-* Create your own dashboard using the Complete data in the Facatory database [**Your score is 20%**]
+* Create your own dashboard using the **Complete data** in the Facatory database [**Your score is 20%**]
 
 # Disclaimer
 
