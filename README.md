@@ -12,19 +12,19 @@ The project is used as a prerequisite for passing by the course, therefore stude
 * Top 10 Destination Airports Bar-Chart and possibility to explore the detail
 * User controller: the Airlines selection input (Sidebar of the dasboard)
 * User controller: the month selection input (Sidebar of the dasboard)
-* Source Code, About Me, and Youtube (Explanation)
+* Source Code, About Me, and Youtube (My Explanation)
 
 # Your Exam 
 
 * Create your own shiny dashboard (Similar to my Dashboard)
-* By adding matana logo in the right corner of your dashboard [Your score is 20%]()
-* Change the color box of the Number Flights, Average Flights per day, <br> and percentage of the Flights delayed) [Your score is 10%]()
-* Create Top 10 Airlines Bar-Chart and possibility to explore the detail [Your score is 10%]()
-* Please Sorting the Top 10 Airlines Bar-Chart from largest to smallest [Your score is 10%]()
-* User controller: the Destination Airports selection input (Sidebar of the dasboard) [Your score is 10%]()
-* User controller: the month selection input (Sidebar of the dasboard) [No Score]()
-* Source Code, About Me, and Youtube (Explanation) [Your score is 40%]()
-
+* By adding matana logo in the right corner of your dashboard [**Your score is 10%**]
+* Change the color box of the Number Flights, Average Flights per day, <br> and percentage of the Flights delayed) [**Your score is 10%**]
+* Create Top 10 Airlines Bar-Chart and possibility to explore the detail [**Your score is 10%**]
+* Please Sorting the Top 10 Airlines Bar-Chart from largest to smallest [**Your score is 10%**]
+* User controller: the Destination Airports selection input (Sidebar of the dasboard) [**Your score is 10%**]
+* User controller: the month selection input (Sidebar of the dasboard) [No Score]
+* Source Code, About Me, and Youtube (Your Explanation) [**Your score is 30%**]
+* Create your own dashboard using the Complete data in the Facatory database [**Your score is 20%**]
 
 # Disclaimer
 
