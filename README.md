@@ -3,7 +3,7 @@
 This project is aimed to all students at Matana University who has enter the database system course with Mr. Bakti Siregar, S.Si, M.Sc. 
 The project is used as a prerequisite for passing by the course, therefore students are expected to be able to provide the best creations they have learned during this semester and also suggest them to get any idea from other references as well.
 
-**Review the Flights-Dashboard** [Here]()
+[Review the Flights-Dashboard Here](https://master-data-scientist.shinyapps.io/Flight-Dashboard/)
 
 # The Contents of Dashboard
 
