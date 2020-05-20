@@ -30,4 +30,4 @@ The project is used as a prerequisite for passing by the course, therefore stude
 
 # Disclaimer
 
-This application project is only for educational purposes. So, every opinion in this application is not the real description of the actual data, this is only a part of the imagination, creations, ideas, has developed by (Type Your Name Here).
+This application project is only for educational purposes. So, every opinion in this application is maight be not the same to the real description of the actual data, this is only a part of the imagination, creations, and just to get some ideas to build a dashboard.
