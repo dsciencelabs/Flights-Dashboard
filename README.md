@@ -14,7 +14,7 @@ The project is used as a prerequisite for passing by the course, therefore stude
 * User controller: the month selection input (Sidebar of the dasboard)
 * Source Code, About Me, and Youtube (My Explanation)
 
-# Your Exam 
+# Your Challenge
 
 * Create your own shiny dashboard (Similar to my Dashboard)
 * By adding matana logo in the right corner of your dashboard [**Your score is 10%**]
