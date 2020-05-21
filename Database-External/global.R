@@ -16,9 +16,9 @@ library(RSQLite)                          # this packages is use for Database Sy
 library(RMariaDB)                         # this packages is use to connect MariaDB 
 
 con <- dbConnect(MariaDB(),
-                 user='factory',          # please input your user account
-                 password='ApaAjaBoleh',  # please input your password
-                 dbname='factory',        # please input your dbname
+                 user='*******',          # please input your user account
+                 password='***********',  # please input your password
+                 dbname='*******',        # please input your dbname
                  host='www.db4free.net')  # Conneting R to your hosting
 
 # Note: Don't forget to run the following code (just for the first time) 
