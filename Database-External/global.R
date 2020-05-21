@@ -15,10 +15,10 @@ library(RSQLite)                          # this packages is use for Database Sy
 library(RMySQL)                           # this packages is use to connect MySQL() 
 
 con <- dbConnect(MySQL(),
-                 user='factory',                        # please input your user account
-                 password='ApaAjaBoleh',                # please input your password
-                 dbname='factory',                      # please input your dbname
-                 host='www.db4free.net')                # Conneting R to your hosting
+                 user='factory',                           # please input your user account
+                 password='ApaAjaBoleh',                   # please input your password
+                 dbname='factory',                         # please input your dbname
+                 host='www.db4free.net')                   # Conneting R to your hosting
 
 # Note: Don't forget to run the following code (just for the first time) 
 # On your server run " SET GLOBAL local_infile = true " and possibly restart server
