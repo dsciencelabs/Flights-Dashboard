@@ -27,7 +27,7 @@ ui <- dashboardPage(title = "www.baktisiregar.com",
         actionLink("remove", "Remove detail tabs")),
         menuItem("About Me", icon = icon("linkedin"), href = "https://www.linkedin.com/in/bakti-siregar-15955480/"),
         menuItem("Source Code", icon = icon("github"), href = "https://github.com/Bakti-Siregar/Flights-Dashboard"),
-        menuItem("Video", icon = icon("youtube"), href = "https://www.youtube.com/watch?v=cNcLxXbFEEA&t=1865s")
+        menuItem("Video", icon = icon("youtube"), href = "https://www.youtube.com/watch?v=vZR_2hhvsu4")
         
         ),
         
