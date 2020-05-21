@@ -9,29 +9,34 @@ library(rlang)                            # requirement packages for Rmarkdown
 library(DT)                               # interface to the JavaScript library DataTables (https://datatables.net/)
 library(r2d3)                             # D3 visualization
 
-library(nycflights13)                     # all flights that departed from NYC in 2013
 library(DBI)                              # this packages is use for Database System (DBS)
 library(dbplyr)                           # this packages is use for Database System (DBS)
 library(RSQLite)                          # this packages is use for Database System (DBS)
-library(RMariaDB)                         # this packages is use to connect MariaDB 
+library(RMySQL)                           # this packages is use to connect MySQL() 
 
-con <- dbConnect(MariaDB(),
-                 user='*******',          # please input your user account
-                 password='***********',  # please input your password
-                 dbname='*******',        # please input your dbname
-                 host='www.db4free.net')  # Conneting R to your hosting
+con <- dbConnect(MySQL(),
+                 user='factory',                        # please input your user account
+                 password='ApaAjaBoleh',                # please input your password
+                 dbname='factory',                      # please input your dbname
+                 host='www.db4free.net')                # Conneting R to your hosting
 
 # Note: Don't forget to run the following code (just for the first time) 
+# On your server run " SET GLOBAL local_infile = true " and possibly restart server
 # ----------------------------------------------------------------------
 
-# dbWriteTable(con, "airlines", nycflights13::airlines)
-# dbWriteTable(con, "airports", nycflights13::airports)
-# dbWriteTable(con, "flights", nycflights13::flights)
+# airlines=read.csv('airlines.csv', header = T,sep = ",")  # read data from your PC
+# airports=read.csv('airports.csv', header = T,sep = ",")  # read data from your PC
+# flights=read.csv('flights.csv', header = T,sep = ",")    # read data from your PC
+# 
+# dbWriteTable(con, "airlines", airlines)                  # Write data to your database
+# dbWriteTable(con, "airports", airports)                  # Write data to your database
+# dbWriteTable(con, "flights", flights)                    # Write data to your database
 
+airlines <- tbl(con, "airlines")                           # read data from your database
+airports <- tbl(con, "airports")                           # read data from your database
+flights  <- tbl(con, "flights")                            # read data from your database
 
-airlines <- tbl(con, "airlines")
-airports <- tbl(con, "airports")
-flights  <- tbl(con, "flights")
+dbDisconnect(con)                                          # Disconnect from your database
 
 # Use purrr's split() and map() function to create the list
 # needed to display the name of the airline but pass its
